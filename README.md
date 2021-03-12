@@ -1,3 +1,3 @@
 # strongpasswordgenerator
 
-![GitHub Logo](/.github/remplate.png)
+!(/.github/template.png)
