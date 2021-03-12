@@ -1,3 +1,0 @@
-# strongpasswordgenerator
-
-!(/.github/template.png)
