@@ -5,7 +5,7 @@
 
 
 import random
-from string import digits, punctuation, ascii_letters
+from string import digits, ascii_letters
 
 
 class textcolors:
