@@ -5,6 +5,9 @@
 
 
 import random
+import time
+import clipboard
+import os
 from string import digits, ascii_letters
 
 
@@ -18,6 +21,7 @@ class textcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+os.system('cls' if os.name == 'nt' else 'clear')
 
 length = int(input("\nHow many digits should your password be?: "))
 symbols = ascii_letters + digits
@@ -25,12 +29,15 @@ secure_random = random.SystemRandom()
 password = "".join(secure_random.choice(symbols)
     for i in range(length))
 
+print(f'\n\nGenerating your password with {textcolors.OKBLUE}{length}{textcolors.ENDC} characters...')
 
+time.sleep(1)
 
 print(f'\n\nHere is your password: {textcolors.WARNING}{password}{textcolors.ENDC}\n\n')
+clipboard.copy(password)
+print(f'The password was automatically copied to your {textcolors.UNDERLINE}clipboard{textcolors.ENDC}...')
 
 
+print(f'Totally {textcolors.FAIL}random{textcolors.ENDC} generator if you have questions you can check my github repository {textcolors.OKBLUE}https://www.github.com/shadowoff09{textcolors.ENDC}\n\n')
 
-print(f'Totally {textcolors.FAIL}random{textcolors.ENDC} generator if you have questions you can check my github repository {textcolors.OKBLUE}https://github.com/shadowoff09{textcolors.ENDC}\n\n')
 
-12
