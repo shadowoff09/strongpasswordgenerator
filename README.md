@@ -14,6 +14,7 @@ $ python3 -m pip install -r requirements.txt
 ## Usage
 
 ```console
+$ cd PasswordGenerator
 $ python3 main.py
 ```
 
