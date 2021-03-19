@@ -1,7 +1,6 @@
 # Strong random password generator
 # By @shadowoff09
-# Totally random generator if you have questions you can check my github repository github.com/shadowoff09
-
+# Totally random generator if you have questions you can check my github repository https://github.com/shadowoff09/PasswordGenerator
 
 
 import random
@@ -34,10 +33,9 @@ print(f'\n\nGenerating your password with {textcolors.OKBLUE}{length}{textcolors
 time.sleep(1)
 
 print(f'\n\nHere is your password: {textcolors.WARNING}{password}{textcolors.ENDC}\n\n')
-clipboard.copy(password)
-print(f'The password was automatically copied to your {textcolors.UNDERLINE}clipboard{textcolors.ENDC}...')
 
 
-print(f'Totally {textcolors.FAIL}random{textcolors.ENDC} generator if you have questions you can check my github repository {textcolors.OKBLUE}https://www.github.com/shadowoff09{textcolors.ENDC}\n\n')
+
+print(f'Totally {textcolors.FAIL}random{textcolors.ENDC} generator if you have questions you can check my github repository {textcolors.OKBLUE}https://github.com/shadowoff09/PasswordGenerator{textcolors.ENDC}\n\n')
 
 
