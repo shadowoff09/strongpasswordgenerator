@@ -2,10 +2,10 @@
 
 ```console
 # clone the repo
-$ git clone https://github.com/shadowoff09/strongpasswordgenerator.git
+$ git clone https://github.com/shadowoff09/PasswordGenerator.git
 
 # change the working directory to the generator
-$ cd passwordgenerator
+$ cd PasswordGenerator
 
 # install the requirements
 $ python3 -m pip install -r requirements.txt
@@ -14,7 +14,7 @@ $ python3 -m pip install -r requirements.txt
 ## Usage
 
 ```console
-$ python3 passwordgenerator
+$ python3 main.py
 ```
 
 
