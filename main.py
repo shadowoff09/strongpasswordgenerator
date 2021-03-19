@@ -28,14 +28,14 @@ secure_random = random.SystemRandom()
 password = "".join(secure_random.choice(symbols)
     for i in range(length))
 
-print(f'\n\nGenerating your password with {textcolors.OKBLUE}{length}{textcolors.ENDC} characters...')
+print(f'\n\nGenerating your password with {length} characters...')
 
 time.sleep(1)
 
-print(f'\n\nHere is your password: {textcolors.WARNING}{password}{textcolors.ENDC}\n\n')
+print(f'\n\nHere is your password: {password}\n\n')
 
 
 
-print(f'Totally {textcolors.FAIL}random{textcolors.ENDC} generator if you have questions you can check my github repository {textcolors.OKBLUE}https://github.com/shadowoff09/PasswordGenerator{textcolors.ENDC}\n\n')
+print(f'Totally random generator if you have questions you can check my github repository https://github.com/shadowoff09/PasswordGenerator\n\n')
 
 
