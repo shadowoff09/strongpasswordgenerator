@@ -17,5 +17,6 @@ $ python3 -m pip install -r requirements.txt
 $ python3 passwordgenerator
 ```
 
-<iframe height="400px" width="100%" src="https://replit.com/@shadowoff09/PasswordGenerator1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+[![Run on Repl.it](https://user-images.githubusercontent.com/27065646/92304596-bf719b00-ef7f-11ea-987f-2c1f3c323088.png)](https://replit.com/@shadowoff09/PasswordGenerator1)
 
