@@ -1,5 +1,3 @@
-# strongpasswordgenerator
-
 ## Installation
 
 ```console
