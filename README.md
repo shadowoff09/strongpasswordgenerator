@@ -17,4 +17,8 @@ $ python3 -m pip install -r requirements.txt
 $ cd PasswordGenerator
 $ python3 main.py
 ```
-
+## Details
+```
+Currently working on an .exe
+Soon it will be released ...
+```
