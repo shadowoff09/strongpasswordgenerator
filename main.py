@@ -5,7 +5,6 @@
 
 import random
 import time
-import clipboard
 import os
 from string import digits, ascii_letters
 
