@@ -10,6 +10,10 @@ $ cd PasswordGenerator
 # Install the requirements
 $ python3 -m pip install -r requirements.txt
 ```
+## Alternative Installation
+
+**You can open it with Google Cloud Shell, if you don't want to install it on your computer.**
+
 [![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/shadowoff09/PasswordGenerator)
 
 ## Usage
