@@ -1,24 +1,35 @@
 ## Installation
 
+
+#### Clone the repo
 ```console
-# Clone the repo
 $ git clone https://github.com/shadowoff09/PasswordGenerator.git
+```
 
-# Change the working directory to the generator
+#### Change the working directory to the generator
+```console
 $ cd PasswordGenerator
+```
 
-# Install the requirements
+#### Install the requirements
+```console
 $ python3 -m pip install -r requirements.txt
 ```
-## Alternative Installation
+
+
+
+
+
+## Alternative Installation (Google Cloud Shell)
 
 **You can open it with Google Cloud Shell, if you don't want to install it on your computer. <br/>(You need a Google Account to use this.)**
 
 [![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/shadowoff09/PasswordGenerator)
+<br/>**Install on Google Cloud Shell**
 ```console
-# Install on Google Cloud Shell
 $ python3 main.py
 ```
+
 
 ## Usage
 
